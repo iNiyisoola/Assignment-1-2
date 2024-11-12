@@ -1,0 +1,61 @@
+body {
+        background-color: palegoldenrod;
+      }
+      input {
+        width: 100%;
+        height: 20px;
+        margin: 10px 0;
+        border: 1px dashed blue;
+        border-radius: 10px;
+      }
+
+      form {
+        width: auto;
+        justify-content: center;
+      }
+
+      .reg-container {
+        /* position: relative; */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .reg-wrapper {
+        /* position: absolute; */
+        align-items: center;
+        background-color: white;
+        width: auto;
+        border: 1px solid blue;
+        border-radius: 10px;
+        justify-content: center;
+        padding: 20px;
+      }
+
+      button {
+        background-color: red;
+        border: 1px dashed royalblue;
+        border-radius: 5px;
+        height: 25px;
+        color: aliceblue;
+        width: 100%;
+        margin: 20px 1px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      a:link {
+        color: red;
+      }
+
+      a:hover {
+        color: whitesmoke;
+      }
+
+      a:active {
+        color: aqua;
+      }
